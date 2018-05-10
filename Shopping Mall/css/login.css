@@ -1,0 +1,317 @@
+.breadcrumb{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+.breadcrumb ul li{
+    display: inline-block;
+}
+.breadcrumb ul li a{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #747474;
+}
+.active1{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #374798;
+}
+.login-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 19px;
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+.login-wrapper .login-l{
+    float: left;
+}
+.login-wrapper .login-r{
+    float: left;
+}
+.login-wrapper .login-r .logininfo{
+    width: 630px;
+    height: 531px;
+    background: #fcfcfc;
+}
+.footer1{
+    margin: 0 auto;
+    background: #eee;
+}
+.footer1 .copyright{
+    color: #999;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 28px;
+    line-height: 19px;
+    padding-top: 15px;
+}
+/*登录*/
+.login-wrapper .login-r .logininfo .title{
+    color:#3c3c3c;
+    font-size: 22px;
+    font-family: "微软雅黑";
+    text-align: center;
+    padding: 25px 0 18px 0;
+    border-bottom: 1px solid #ff4e00;
+
+}
+.login-wrapper .login-r .logininfo .radio{
+    padding-left: 135px;
+    padding-top: 40px;
+}
+input[type='radio'],input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+    opacity: 0;
+
+}
+.input_style{
+    background: url(../image/green.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.radio_bg{
+    background-position: -118px 0 ;
+}
+.checkbox_bg{
+    background-position: 0 0;
+}
+.radio_bg_check{
+    background-position: -166px 0 ;
+}
+.checkbox_bg_check{
+    background-position: -48px 0;
+}
+.login-wrapper .login-r .logininfo>.useusername{
+    width: 464px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 30px;
+}
+.login-wrapper .login-r .logininfo>.useusername> .Inputbox .input{
+    width: 360px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-indent: 1rem
+}
+.login-wrapper .login-r .logininfo>.useusername> .Inputbox:nth-child(2){
+    position: relative;
+}
+.login-wrapper .login-r .logininfo>.useusername> .Inputbox:nth-child(2) img{
+    position: absolute;
+    bottom: 12px;
+    right: 65px;
+}
+.login-wrapper .login-r .logininfo>.useusername> .rememberpass{
+    text-align: left;
+    margin-top: 17px;
+    margin-left: 52px;
+}
+.login-wrapper .login-r .logininfo>.useusername> .dragunlock .forgetpass{
+    color: #747474;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.login-wrapper .login-r .logininfo>.useusername> .dragunlock{
+    margin-top: 19px;
+}
+.login-wrapper .login-r .logininfo>.useusername> .button div button{
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+
+}
+.login-wrapper .login-r .logininfo>.useusername> .button div #login{
+    background: #374798;
+    margin-top: 16px;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.login-wrapper .login-r .logininfo>.useusername> .button div #register{
+    background: #f7f7f7;
+    margin-top: 10px;
+    color: #757575;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.login-r .Thirdparty{
+    margin: 0 auto;
+    width: 464px;
+    text-align: center;
+    margin-top: 27px;
+}
+.login-r .Thirdparty .title1{
+    vertical-align: super;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #444;
+}
+.login-r .Thirdparty img{
+    padding: 0 20px;
+}
+/*注册*/
+.register-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    height: 604px;
+    background: #fff;
+    margin-top: 14px;
+    display:none;
+}
+.register-wrapper h2{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    color:#3c3c3c;
+    padding: 23px 0 21px 0;
+    width: 100%;
+    border-bottom: 1px solid #ff4e00;
+}
+.register-wrapper .register-form{
+    text-align: center;
+    padding-top: 29px;
+    width: 464px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 42px;
+}
+.register-wrapper .register-form .Inputbox{
+    width: 360px;
+    margin: 0 auto;
+}
+.register-wrapper .register-form .Inputbox .input{
+    width: 360px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-indent: 1rem
+}
+.register-wrapper .register-form .Inputbox:nth-child(2){
+    position: relative;
+}
+.register-wrapper .register-form .Inputbox:nth-child(2) img{
+    position: absolute;
+    bottom: 12px;
+    right: 13px;
+}
+.register-wrapper .register-form .agree{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #444444;
+    width: 360px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+}
+.register-wrapper .register-form .agree .radio_bg{
+    margin-right: 9px;
+    vertical-align: bottom;
+}
+.register-wrapper .register-form .button .register button{
+    background: #f7f7f7;
+    margin-top: 10px;
+    color: #757575;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+}
+.register-wrapper .register-form .jumplogin{
+    text-align: right;
+    color:#374798;
+    font-size: 12px;
+    width: 360px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    margin-top: 10px;
+}
+.register-wrapper .Thirdparty{
+    margin: 0 auto;
+    width: 464px;
+    text-align: center;
+    margin-top: 27px;
+}
+.register-wrapper .Thirdparty .title1{
+    vertical-align: super;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #444;
+}
+.register-wrapper .Thirdparty img{
+    padding: 0 20px;
+}
+.register-wrapper .register-form .getcode{
+    position: relative;
+    margin-top: 10px;
+}
+.register-wrapper .register-form .getcode .inputcode{
+    width: 360px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-indent: 1rem;
+    margin:0 auto
+}
+.register-wrapper .register-form .use-email{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #374798;
+    width: 360px;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 10px;
+}
+.register-wrapper .register-form .getcode  #btnSendCode{
+    width: 94px;
+    height: 41px;
+    background: #374798;
+    color: #fff;
+/*    font-size: 14px;*/
+    font-family: "微软雅黑";
+    border-radius: 1px;
+    position: absolute;
+    right: 52px;
+}
+.register-wrapper .register-form .dropchoose #phone{
+    width: 229px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+.register-wrapper .register-form .dropchoose{
+    width: 360px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+}
+.register-wrapper .register-form .dropchoose .select{position:relative;width:121px;height:40px;border:1px solid #eee;cursor:pointer;font-size: 14px;font-family: "微软雅黑";color:#272727;border-radius: 4px;}
+.register-wrapper .register-form .dropchoose .select:after{content:"";position:absolute;top:50%;right:100px;margin-top:-2px;border-top:5px solid #666;border-right:5px solid transparent;border-left:5px solid transparent;}
+.register-wrapper .register-form .dropchoose .select .select_text{padding:0 20px 0 10px;height:36px;line-height:36px;}
+.register-wrapper .register-form .dropchoose .select_ul{display:none;position:absolute;top:34px;left:-1px;width:134px;min-width:134px;border:1px solid #D4D4D4;border-bottom-right-radius:3px;border-bottom-left-radius:3px;background:#fff;}
+.register-wrapper .register-form .dropchoose .select_ul li{line-height:36px;text-indent:10px;}
+.register-wrapper .register-form .dropchoose .select_ul li:hover{color:#fff;background:#374798;}
+.register-wrapper .register-form .dropchoose .select_ul li.cur{color:#fff;background:#374798;}
+select{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    padding-left: 12px;
+    background: url(../image/select-arrow.png) no-repeat scroll 100px center transparent;
+}
