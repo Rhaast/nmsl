@@ -26,7 +26,7 @@ $(function () {
 $(function () {
     $('.list-content .shopinfo .info .icon .collect').click(function () {
         if($(this).attr('src') == "image/Collection-s.png"){
-             $(this).attr("src","image/Collectioned-s.png");
+            $(this).attr("src","image/Collectioned-s.png");
 
         }else{
             $(this).attr("src","image/Collection-s.png");
@@ -72,21 +72,21 @@ $(document).ready(function(){
     }
     $("ul.expmenu li > div.header").click(function()
     {    var arrowrd =  $(this).parent().find("ul.menu");
-         var arrow = $(this).find("span.arrow");
-         var otherarrow = $('span.arrow').not(arrow);
+        var arrow = $(this).find("span.arrow");
+        var otherarrow = $('span.arrow').not(arrow);
 
-         if(arrowrd.css('display') == 'block'){
-             arrowrd.slideUp()
-             arrow.removeClass("down");
-             arrow.addClass("up");
-         }else{
-             arrowrd.slideDown();
-             $("ul.menu").not(arrowrd).slideUp()
-             arrow.addClass("down");
-             arrow.removeClass("up");
-             otherarrow.removeClass("down");
-             otherarrow.addClass("up");
-         }
+        if(arrowrd.css('display') == 'block'){
+            arrowrd.slideUp()
+            arrow.removeClass("down");
+            arrow.addClass("up");
+        }else{
+            arrowrd.slideDown();
+            $("ul.menu").not(arrowrd).slideUp()
+            arrow.addClass("down");
+            arrow.removeClass("up");
+            otherarrow.removeClass("down");
+            otherarrow.addClass("up");
+        }
     });
 });
 // 分頁
