@@ -222,3 +222,144 @@
     float: right;
     margin-top: 40px;
 }
+.detail2{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 109px;
+}
+.detail2 .detail2-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.detail2 .detail2-wrapper>img{
+    margin-top: 62px;
+}
+.detail2 .detail2-wrapper .list-content{
+    margin-top: 20px;
+}
+.detail2 .detail2-wrapper .list-content ul{
+    width: 1162px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.detail2 .detail2-wrapper .list-content ul li{
+    float: left;
+    width: 226px;
+    height: 306px;
+    margin-top: 9px;
+    position: relative;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+.detail2 .detail2-wrapper .list-content ul li:hover{
+    border: 1px solid #374798;
+    box-sizing: border-box;
+}
+.detail2 .detail2-wrapper .list-content ul li:nth-child(5n+1){
+   margin-right: 8px;
+}
+.detail2 .detail2-wrapper .list-content ul li:nth-child(5n+2){
+    margin-right: 8px;
+}
+.detail2 .detail2-wrapper .list-content ul li:nth-child(5n+3){
+    margin-right: 8px;
+}
+.detail2 .detail2-wrapper .list-content ul li:nth-child(5n+4){
+    margin-right: 8px;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .portrait img{
+    width: 38px;
+    height: 38px;
+
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .portrait{
+    position: absolute;
+    bottom: 34px;
+    left: 4px;
+    width: 38px;
+    height: 38px;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .type{
+    color: #999;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    position: absolute;
+    bottom: 46px;
+    left: 47px;
+    padding: 2px 5px;
+    background: #eeeeee;
+    border-radius: 1px;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .title{
+    color: #444;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    position: absolute;
+    bottom: 46px;
+    left: 86px;
+
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .price{
+    color: #fb5108;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    position: absolute;
+    bottom: 12px;
+    left: 9px;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .icon{
+    position: absolute;
+    bottom: 12px;
+    right: 7px;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .icon img{
+    margin-left: 16px;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .icon img:last-child{
+    position: relative;
+}
+.detail2 .detail2-wrapper .list-content ul li .shopinfo  .info .icon .sum{
+    width: 12px;
+    height: 12px;
+    background: #fb4e03;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: "微软雅黑";
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+}
+.detail2 .detail2-wrapper .list-content ul li > img{
+    width: 224px;
+}
+.detail2 .detail2-wrapper .list-content ul li img{
+    position: relative;
+}
+.detail2 .detail2-wrapper .list-content ul li .thumbup{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+
+}
+.detail2 .detail2-wrapper .list-content ul li .Shelter{
+    font-size: 24px;
+    color: red;
+    height: 28px;
+    background: #000;
+    position: absolute;
+    top:196px;
+    opacity: 0.26;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #fff;
+    line-height: 28px;
+    text-align: right;
+    width: 224px;
+}
+.detail2 .detail2-wrapper .list-content ul li .Shelter span{
+    margin-right: 10px;
+}

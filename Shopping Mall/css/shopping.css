@@ -211,6 +211,10 @@ input[type='radio'],input[type='checkbox']{
     border: 1px solid #eeeeee;
 
 }
+.shopping-wrapper .shopping-r .shopping-list .list-content ul li:hover{
+    border: 1px solid #374798;
+    box-sizing: border-box;
+}
 .shopping-wrapper .shopping-r .shopping-list .list-content ul li > img{
     width: 224px;
 }
